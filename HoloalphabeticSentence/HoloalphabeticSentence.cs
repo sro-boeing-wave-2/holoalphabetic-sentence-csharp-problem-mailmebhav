@@ -11,7 +11,6 @@ namespace HoloalphabeticSentence
         {
             HashSet<Char> letters = new HashSet<char>();
             string text = input.ToUpper();
-
             for(int i = 0; i < text.Length; i++)
             {
                 if('A' <= text[i] && text[i] <= 'Z')
